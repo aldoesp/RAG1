@@ -8,7 +8,7 @@ const envSchema = z.object({
 
   PORT: z.coerce.number().int().positive().default(3000),
 
-  GEMINI_API_KEY: z.string().optional(),
+  GEMINI_API_KEY: z.string().trim().min(1, "GEMINI_API_KEY est requis"),
 
   SUPABASE_URL: z.string().url().optional().or(z.literal("")),
 
