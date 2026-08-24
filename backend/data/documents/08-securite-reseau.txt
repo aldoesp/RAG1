@@ -1,0 +1,11 @@
+INTRODUCTION À LA SÉCURITÉ RÉSEAU
+
+Un pare-feu filtre les communications selon des règles définies.
+
+Un IDS analyse le trafic et signale les comportements suspects. Un IPS peut également bloquer certaines communications.
+
+La segmentation réseau sépare les utilisateurs, les serveurs, les invités et les équipements sensibles dans différents segments.
+
+Une règle de pare-feu ne remplace pas les mises à jour de sécurité, la supervision des journaux ou l'authentification forte.
+
+Ce document ne décrit pas une architecture RAG. Il sert de document hors sujet pour tester la précision du retriever.
